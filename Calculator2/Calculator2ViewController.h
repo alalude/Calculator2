@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Calculator2Brain.h"
 
 @interface Calculator2ViewController : UIViewController
+
+{
+    IBOutlet UILabel *display;
+    Calculator2Brain *brain;
+    BOOL userIsInTheMiddleOfTypingANumber;
+    BOOL decimalFlag; //   *** Adesina Code ***
+}
+
+- (IBAction)digitPressed:(UIButton *)sender;
+- (IBAction)operationPressed:(UIButton *)sender;
+
 
 @end
