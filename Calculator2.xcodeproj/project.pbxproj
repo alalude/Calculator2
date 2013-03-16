@@ -119,8 +119,6 @@
 		E3709A281413D3C100FEBC3C /* Calculator2 */ = {
 			isa = PBXGroup;
 			children = (
-				E3709A311413D3C100FEBC3C /* Calculator2AppDelegate.h */,
-				E3709A321413D3C100FEBC3C /* Calculator2AppDelegate.m */,
 				E3709A5C1413D41100FEBC3C /* Calculator2Brain.h */,
 				E3709A5D1413D41100FEBC3C /* Calculator2Brain.m */,
 				E3709A371413D3C100FEBC3C /* Calculator2ViewController.h */,
@@ -135,6 +133,8 @@
 		E3709A291413D3C100FEBC3C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E3709A311413D3C100FEBC3C /* Calculator2AppDelegate.h */,
+				E3709A321413D3C100FEBC3C /* Calculator2AppDelegate.m */,
 				E3709A2A1413D3C100FEBC3C /* Calculator2-Info.plist */,
 				E3709A2B1413D3C100FEBC3C /* InfoPlist.strings */,
 				E3709A2E1413D3C100FEBC3C /* main.m */,
